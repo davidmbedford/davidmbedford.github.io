@@ -1,0 +1,72 @@
+/* p {
+  line-height: 2rem;} */
+/*
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+} */
+/*
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+} */
+
+h3 {
+  color: rgb(213, 216, 243);
+  font-weight: bold;
+}
+
+h5 {
+  color: rgb(247, 173, 173);
+}
+
+h6,
+ul {
+  color: rgb(225, 252, 225);
+  font-style: italic;
+}
+
+.section {
+  background-color: lightgray;
+}
+
+#main-box,
+#body-box,
+#projects-box,
+#bio-box,
+#skills-box,
+#resume-box,
+#contact-box {
+  background-color: rgb(29, 34, 49);
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  opacity: 0.8;
+}
+
+#background-img {
+  background-image: url("../images/mainSky.jpg");
+  background-size: 100%;
+}

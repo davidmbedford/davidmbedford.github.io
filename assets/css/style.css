@@ -1,10 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
 nav ul a,
 nav .brand-logo {
@@ -58,5 +51,20 @@ footer.page-footer {
 
 .titleText {
   font-weight: bold;
+  text-align: left;
   color: rgb(114, 113, 113);
+}
+
+#top-image {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#top-box {
+  background-color: lightgray;
+  margin-bottom: 5px;
+}
+
+.card {
+  color: pink;
 }
