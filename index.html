@@ -16,36 +16,71 @@
   <div class="container-fluid"> <!--app container-->
     <!---This is the section with my name--->
     <div class="section" id="background-img">
-            <ul class="tabs">
-              <li class="tab col s3"><a href="#test1">Portfolio</a></li>
-              <li class="tab col s3"><a href="#test2">Bio</a></li>
-              <li class="tab col s3"><a href="#test3">Skills</a></li>
-              <li class="tab col s3"><a href="#test5">Contact</a></li>
-            </ul>
+
+      <nav id="transparent">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">DMB</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+              <li><a class="nav-link" href="#portfolio-sec">Portfolio</a></li>
+              <li><a class="nav-link" href="#bio-sec">Bio</a></li>
+              <li><a class="nav-link" href="#skills-sec">Skills</a></li>
+              <li><a class="nav-link" href="#contact-sec">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a class="nav-link" href="#portfolio-sec">Portfolio</a></li>
+        <li><a class="nav-link" href="#bio-sec">Bio</a></li>
+        <li><a class="nav-link" href="#skills-sec">Skills</a></li>
+        <li><a class="nav-link" href="#contact-sec">Contact</a></li>
+      </ul>
+
+
 
       <div class="container" id="main-box">
-        <div class="row">
           
-          <div class="row">
-            <div class="col s12">
-              <h3 class="center">david michael bedford</h3>
-              <h5>Web developer. Musician. Hooligan.</h5>
-              <a href="https://drive.google.com/open?id=1ozBWzyouy6FgoyrDW90FbzAmbWb-rNfD70IWsBV85-M">Resume</a>
-            </div>
+        <div class="row">
+          <div class="col s12">
+            <h3 class="center">david michael bedford</h3>
+            <h5>Web developer. Musician. Hooligan.</h5>
+            <a href="https://drive.google.com/open?id=1ozBWzyouy6FgoyrDW90FbzAmbWb-rNfD70IWsBV85-M">Resume</a>
           </div>
-
         </div>
+
       </div>
     </div>
     <!--This is the section that changes dynamically when you select a tab--->
     <div class="section" id="projects-box">
-      <div class="container">
+      <div class="container" id="portfolio-sec">
 
         <div class="row">
           <div class="col s12">
             <h3 class="center">Portfolio</h3>
           </div>
         </div>
+
+        <div class="row" id="projectCards">
+            <div class="col s12">
+              <h5 class="header">ZigZag</h5>
+              <div class="card horizontal">
+                <div class="card-image">
+                  <img src="assets/images/zigZag.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <p>Designed to help young folks and people in search of a new job find the right career</p>
+                    <p>Main Tech: React, JS, Node.JS, Sql</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://github.com/asmith7531/team1project3">Code</a>
+                    <a href="https://radiant-wildwood-53087.herokuapp.com">Site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div class="row" id="projectCards">
           <div class="col s12">
@@ -179,14 +214,13 @@
           </div>
         </div>
 
-
       </div>
 
     </div>
 
 
   <div class="section" id="bio-box">
-    <div class="container">
+    <div class="container" id="bio-sec">
       <div class="row">
         <div class="col s12">
           <h3 class="center">Bio</h3>
@@ -199,7 +233,7 @@
   </div>
 
   <div class="section" id="skills-box">
-    <div class="container">
+    <div class="container" id="skills-sec">
       <div class="row">
         <div class="col s12">
           <h3 class="center">Skills</h3>
@@ -216,24 +250,14 @@
     </div>
   </div>
 
-  <div class="section" id="resume-box">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h3 class="center">Resume</h3>
-          <h5> here there will be a list of my skills and abbreviation of resume</h5>
-          <h6>link to res</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="section" id="contact-box">
-    <div class="container">
+    <div class="container" id="contact-sec">
       <div class="row">
         <div class="col s12">
           <h3 class="center">Contact</h3>
-          <h5> Here there will be a contact form</h5>
+          <h5>Email: david.m.bedford1@gmail.com</h5>
+          <h5>Phone: 848.391.9915</h5>
+          <h5>Github: <a href="https://github.com/davidmbedford/">davidmbedford</a></h5>
         </div>
       </div>
     </div>
