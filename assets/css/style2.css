@@ -4,8 +4,11 @@ h3 {
   font-weight: bold;
 }
 
-h5,
-.bioParagraph {
+h5 {
+  color: rgb(247, 173, 173);
+}
+
+.bio-paragraph {
   color: rgb(247, 173, 173);
 }
 
