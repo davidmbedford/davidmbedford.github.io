@@ -5,49 +5,85 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>dmb: cv + res</title>
+  <!-- Font AWESOME -->
+  <script src="https://kit.fontawesome.com/1a76508466.js"></script>
+
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/style2.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
-<body id="background-img">
+<body>
 
-  <div class="container">
+  <div class="container-fluid"> <!--app container-->
     <!---This is the section with my name--->
-    <div class="section" id="main-box">
-      <div class="container">
+    <div class="section" id="background-img">
+
+      <nav id="transparent">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">DMB</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+              <li><a class="nav-link" href="#portfolio-sec">Portfolio</a></li>
+              <li><a class="nav-link" href="#bio-sec">Bio</a></li>
+              <li><a class="nav-link" href="#skills-sec">Skills</a></li>
+              <li><a class="nav-link" href="#contact-sec">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a class="nav-link" href="#portfolio-sec">Portfolio</a></li>
+        <li><a class="nav-link" href="#bio-sec">Bio</a></li>
+        <li><a class="nav-link" href="#skills-sec">Skills</a></li>
+        <li><a class="nav-link" href="#contact-sec">Contact</a></li>
+      </ul>
+
+
+
+      <div class="container" id="main-box">
+          
         <div class="row">
           <div class="col s12">
-            <h3 class="center">david michael bedford</h3>
+            <h2 class="center">david michael bedford</h2>
             <h5>Web developer. Musician. Hooligan.</h5>
+            <a href="https://drive.google.com/open?id=1ozBWzyouy6FgoyrDW90FbzAmbWb-rNfD70IWsBV85-M">Resume</a>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12">
-            <ul class="tabs">
-              <li class="tab col s3"><a href="#test1">Portfolio</a></li>
-              <li class="tab col s3"><a href="#test2">Bio</a></li>
-              <li class="tab col s3"><a href="#test3">Skills</a></li>
-              <li class="tab col s3"><a href="#test5">Contact</a></li>
-            </ul>
-          </div>
-          <!-- <div id="test1" class="col s12">Test 1</div>
-          <div id="test2" class="col s12">Test 2</div>
-          <div id="test3" class="col s12">Test 3</div>
-          <div id="test4" class="col s12">Test 4</div> -->
-        </div>
+
       </div>
     </div>
     <!--This is the section that changes dynamically when you select a tab--->
     <div class="section" id="projects-box">
-      <div class="container">
+      <div class="container" id="portfolio-sec">
 
         <div class="row">
           <div class="col s12">
             <h3 class="center">Portfolio</h3>
           </div>
         </div>
+
+        <div class="row" id="projectCards">
+            <div class="col s12">
+              <h5 class="header">ZigZag</h5>
+              <div class="card horizontal">
+                <div class="card-image">
+                  <img src="assets/images/zigZag.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <p>Designed to help young folks and people in search of a new job find the right career</p>
+                    <p>Main Tech: React, JS, Node.JS, Sql</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://github.com/asmith7531/team1project3">Code</a>
+                    <a href="https://radiant-wildwood-53087.herokuapp.com">Site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div class="row" id="projectCards">
           <div class="col s12">
@@ -181,70 +217,76 @@
           </div>
         </div>
 
-
       </div>
 
     </div>
 
 
   <div class="section" id="bio-box">
-    <div class="container">
+    <div class="container" id="bio-sec">
       <div class="row">
         <div class="col s12">
           <h3 class="center">Bio</h3>
-          <h5> This Heat were an English experimental rock band, formed in early 1976 in Camberwell, London by
-            multi-instrumentalists Charles Bullen (guitar, clarinet, viola, vocals, tapes), Charles Hayward (drums,
-            keyboards, vocals, tapes) and Gareth Williams (keyboard, guitar, bass, vocals, tapes).
-
-            The band was originally active from 1976 until 1982. This Heat were active in the ascendancy of British
-            progressive rock and punk rock, but stood apart from those scenes due to an experimental, confrontational,
-            and politically charged approach. Their commercial success was limited, but This Heat are widely considered
-            a link between early 1970s music styles such as krautrock and later experimental genres such as post-punk,
-            industrial music, and post-rock.[1]
-
-            Williams died of cancer in 2001. From 2016 until 2019, Bullen and Hayward reunited, playing under the name
-            This Is Not This Heat.</h5>
+          <h5>I’m a web developer with 8 years of experience in community organizing and a deep passion for coding technology. </h5>
+          <h5>Having worked on multiple grassroots campaigns at the state and university level, I have experience coordinating large teams, conducting press outreach, designing concise, attractive messaging, and overall balancing many tasks at once. I’ve served as a public speaker in classrooms and at public events to audiences ranging from 10 to 3,500 people. I’ve served as an arbiter for multiple organizations, and from this have learned much about conflict resolution and democratically incorporating the ideas of a whole team into one strong project.</h5>
+          <h5>I have dev experience with JavaScript (ES6), HTML5, CSS3, Node.js, SQL, MongoDB, and various JS and CSS libraries such as React and Materialize. As a musician drawn to the creative potential of code, my desire to learn is boundless.</h5>
         </div>
       </div>
     </div>
   </div>
 
   <div class="section" id="skills-box">
-    <div class="container">
+    <div class="container" id="skills-sec">
       <div class="row">
         <div class="col s12">
           <h3 class="center">Skills</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
-            <Li>jQuery</Li>
-            <li>node.js</li>
-            <li>design etc</li>
-          </ul>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section" id="resume-box">
-    <div class="container">
       <div class="row">
-        <div class="col s12">
-          <h3 class="center">Resume</h3>
-          <h5> here there will be a list of my skills and abbreviation of resume</h5>
-          <h6>link to res</h6>
+        <div class="col">
+            <i class="fab fa-react fa-4x skill-icon"></i>
+            <h5 class="center">React.JS</h5>
+        </div>
+        <div class="col">
+            <i class="fab fa-js fa-4x skill-icon"></i>
+            <h5 class="center">JavaScript</h5>
+        </div>
+          <div class="col">
+              <i class="fab fa-html5 fa-4x skill-icon"></i>
+              <h5 class="center">HTML</h5>
+          </div>
+          <div class="col">
+              <i class="fab fa-css3 fa-4x skill-icon"></i>
+              <h5 class="center">CSS</h5>
+            </div>
+          <div class="col">
+              <i class="fas fa-dollar-sign fa-4x skill-icon"></i>
+              <h5 class="center">jQuery</h5>
+          </div>
+          <div class="col">
+              <i class="fab fa-node fa-js fa-4x skill-icon"></i>
+              <h5 class="center">Node.JS</h5>
+          </div>
+          <div class="col">
+              <i class="fas fa-database fa-4x skill-icon"></i>
+              <h5 class="center">SQL</h5>
+          </div>
+          <div class="col">
+              <i class="fas fa-database fa-4x skill-icon"></i>
+              <h5 class="center">MongoDB</h5>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="section" id="contact-box">
-    <div class="container">
+    <div class="container" id="contact-sec">
       <div class="row">
         <div class="col s12">
           <h3 class="center">Contact</h3>
-          <h5> Here there will be a contact form</h5>
+          <h5>Email: david.m.bedford1@gmail.com</h5>
+          <h5>Phone: 848.391.9915</h5>
+          <h5>Github: <a href="https://github.com/davidmbedford/">davidmbedford</a></h5>
         </div>
       </div>
     </div>
