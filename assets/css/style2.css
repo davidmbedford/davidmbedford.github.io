@@ -24,24 +24,40 @@ ul {
   background-color: lightgray;
 }
 
-#main-box,
+#main-box {
+  /* background-color: rgb(29, 34, 49); */
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  opacity: 0.8;
+}
+
+.contact-info {
+  color: #039be5;
+}
+
 #body-box,
 #projects-box,
 #bio-box,
 #skills-box,
 #resume-box,
 #contact-box {
-  background-color: rgb(29, 34, 49);
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+    background-image: linear-gradient(120deg, rgb(57, 67, 97), rgb(1, 3, 14));
+  /* background-color: rgb(29, 34, 49); */
+  /* margin-bottom: 3rem;
+  margin-top: 3rem; */
   opacity: 0.8;
 }
 
-
+#contact-box {
+  border-width: 0rem 0rem 1rem 0rem;
+  border-style: solid;
+  border-color: rgb(0, 1, 8));
+}
 
 #background-img {
   background-image: url("../images/mainSky.jpg");
   background-size: 100%;
-  padding-bottom: 30vh;
+  background-position-y: -50%;
+  padding-bottom: 12vh;
   /* background-repeat: no-repeat; */
 }
