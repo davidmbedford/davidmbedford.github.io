@@ -57,15 +57,26 @@ ul {
   height: 70vh;
 }
 
-@media only screen and (min-width: 500px) {
-  .parallax-container .parallax img {
-    background-position-y: -30%;
+@media only screen and (min-width: 901px) {
+  .parallax-container .parallax img#parallax-main-img {
+    bottom: 60vh;
+  }
+} 
+
+@media only screen and (min-width: 626px) and (max-width: 900px) {
+  .parallax-container .parallax img#parallax-main-img {
+    bottom: 45vh;
   }
 }
+
+@media only screen and (min-width: 490px) and (max-width: 625px) {
+  .parallax-container .parallax img#parallax-main-img {
+    bottom: 25vh;
+  }
+} 
 
 .parallax-container .parallax img {
   min-width: 100%;
   min-height: 100%;
   max-width: 100%;
 } 
-
