@@ -1,70 +1,65 @@
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
-p {
-  line-height: 2rem;
-}
-
-.sidenav-trigger {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-.titleText {
+/* Regarding font sizes and characteristics */
+h2,
+h3 {
+  color: rgb(213, 216, 243);
   font-weight: bold;
-  text-align: left;
-  color: rgb(114, 113, 113);
 }
 
-#top-image {
-  padding-bottom: 50px;
-  padding-top: 50px;
+h5,
+p.bioParagraph {
+  color: rgb(247, 173, 173);
 }
 
-#top-box {
-  background-color: lightgray;
-  margin-bottom: 5px;
+h6,
+ul {
+  color: rgb(225, 252, 225);
+  font-style: italic;
 }
 
-.card {
-  color: pink;
+.contact-info {
+  color: #039be5;
 }
+
+/* boxes and containers */
+#main-box {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  opacity: 0.8;
+}
+
+
+#body-box,
+#projects-box,
+#bio-box,
+#skills-box,
+#resume-box,
+#contact-box {
+  background-image: linear-gradient(120deg, rgb(57, 67, 97), rgb(1, 3, 14));
+  opacity: 0.8;
+}
+
+#contact-box {
+  border-width: 0rem 0rem 2rem 0rem;
+  border-style: solid;
+  border-color: rgb(0, 1, 8));
+}
+
+/* icons */
+.skill-icon {
+  margin: 3rem;
+  color: rgb(225, 252, 225);
+}
+
+/* parralax to override materialize.css */
+
+/* ///////////// for main parallax header */
+#parallax-main {
+  height: 70vh;
+}
+
+.parallax-container .parallax img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+} 
+
