@@ -23,7 +23,7 @@ ul {
 /* boxes and containers */
 #main-box {
   margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
   opacity: 0.8;
 }
 
@@ -55,6 +55,12 @@ ul {
 /* ///////////// for main parallax header */
 #parallax-main {
   height: 70vh;
+}
+
+@media only screen and (min-width: 500px) {
+  .parallax-container .parallax img {
+    background-position-y: -30%;
+  }
 }
 
 .parallax-container .parallax img {
