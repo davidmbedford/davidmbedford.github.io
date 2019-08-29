@@ -63,6 +63,7 @@ ul {
   }
 } 
 
+
 @media only screen and (min-width: 626px) and (max-width: 900px) {
   .parallax-container .parallax img#parallax-main-img {
     bottom: 45vh;
