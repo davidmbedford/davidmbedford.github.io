@@ -11,25 +11,26 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="assets/css/style2.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
 
-  <div class="container-fluid"> <!--app container-->
+  <div class="container-fluid">
+    <!--app container-->
     <!---This is the section with my name--->
-    <div class="section" id="background-img">
+    <!-- <div class="section" id="background-img"> -->
 
       <nav id="transparent">
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo">DMB</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-              <li><a class="nav-link" href="#home-sec">Home</a></li>
-              <li><a class="nav-link" href="#portfolio-sec">Portfolio</a></li>
-              <li><a class="nav-link" href="#bio-sec">Bio</a></li>
-              <li><a class="nav-link" href="#skills-sec">Skills</a></li>
-              <li><a class="nav-link" href="#contact-sec">Contact</a></li>
+            <li><a class="nav-link" href="#home-sec">Home</a></li>
+            <li><a class="nav-link" href="#portfolio-sec">Portfolio</a></li>
+            <li><a class="nav-link" href="#bio-sec">Bio</a></li>
+            <li><a class="nav-link" href="#skills-sec">Skills</a></li>
+            <li><a class="nav-link" href="#contact-sec">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -42,23 +43,24 @@
         <li><a class="nav-link" href="#contact-sec">Contact</a></li>
       </ul>
 
-
-
-      <div class="container" id="main-box">
-          
-        <div class="row" id="home-sec">
-          <div class="col s12">
-            <h2 class="center">david michael bedford</h2>
-            <h5 class="center">Web developer. Musician. Avid Learner.</h5>
+      
+      <div class="parallax-container" id="parallax-main">
+        <div class="container" id="main-box">
+  
+          <div class="row" id="home-sec">
+            <div class="col s12">
+              <h2 class="center">david michael bedford</h2>
+              <h5 class="center">Web developer. Musician. Avid Learner.</h5>
+            </div>
           </div>
+  
         </div>
-
+  
+        <div class="parallax"><img id="parallax-main-img" src="assets\images\mainSky.jpg"/></div>
       </div>
-    </div>
-    
-    <div class="parallax-container">
-      <div class="parallax"><img src="assets/images/nightSky2crop.jpg"></div>
-    </div>
+
+    <!-- </div> -->
+
     <!--This is the section that changes dynamically when you select a tab--->
     <div class="section" id="projects-box">
       <div class="container" id="portfolio-sec">
@@ -70,26 +72,26 @@
         </div>
 
         <div class="row" id="projectCards">
-            <div class="col s12">
-              <h5 class="header">ZigZag</h5>
-              <div class="card horizontal">
-                <div class="card-image">
-                  <img src="assets/images/zigZag.png">
+          <div class="col s12">
+            <h5 class="header">ZigZag</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="assets/images/zigZag.png">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>Designed to help people in search of a new career find the one that fits them best</p>
+                  <br>
+                  <p>Main Tech: React, JS, Node.JS, Sql</p>
                 </div>
-                <div class="card-stacked">
-                  <div class="card-content">
-                    <p>Designed to help people in search of a new career find the one that fits them best</p>
-                    <br>
-                    <p>Main Tech: React, JS, Node.JS, Sql</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://github.com/asmith7531/team1project3">Code</a>
-                    <a href="https://radiant-wildwood-53087.herokuapp.com">Site</a>
-                  </div>
+                <div class="card-action">
+                  <a href="https://github.com/asmith7531/team1project3">Code</a>
+                  <a href="https://radiant-wildwood-53087.herokuapp.com">Site</a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
         <div class="row" id="projectCards">
           <div class="col s12">
@@ -175,7 +177,7 @@
                 <div class="card-action">
                   <a href="https://github.com/davidmbedford/bamazon-unit12">Code</a>
                   <a href="#">Site? Clone it!</a>
-                  
+
                 </div>
               </div>
             </div>
@@ -185,46 +187,46 @@
         <div class="row" id="projectCards">
           <div class="col s12">
             <h5 class="header">LiveSchedule: Train Edition</h5>
-              <div class="card horizontal">
-                <div class="card-image">
-                  <img src="assets/images/liveschedule.png">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="assets/images/liveschedule.png">
 
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>Firebase-oriented live scheduling app - this app is in development</p>
+                  <br>
+                  <p>Tech: Firebase, JS, jQuery</p>
                 </div>
-                <div class="card-stacked">
-                  <div class="card-content">
-                    <p>Firebase-oriented live scheduling app - this app is in development</p>
-                    <br>
-                    <p>Tech: Firebase, JS, jQuery</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://github.com/davidmbedford/LiveSchedule">Code</a>
-                    <a href="https://davidmbedford.github.io/LiveSchedule/">Site</a>
+                <div class="card-action">
+                  <a href="https://github.com/davidmbedford/LiveSchedule">Code</a>
+                  <a href="https://davidmbedford.github.io/LiveSchedule/">Site</a>
 
-                  </div>
                 </div>
               </div>
+            </div>
           </div>
         </div>
 
         <div class="row" id="projectCards">
           <div class="col s12">
             <h5 class="header">Gif Exploder</h5>
-              <div class="card horizontal">
-                <div class="card-image">
-                  <img src="assets/images/gifexploder.png">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="assets/images/gifexploder.png">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>A jQuery-based Gif emgine that utilizes the Giphy API</p>
+                  <br>
+                  <p>Tech: JS, jQuery, HTML, CSS</p>
                 </div>
-                <div class="card-stacked">
-                  <div class="card-content">
-                    <p>A jQuery-based Gif emgine that utilizes the Giphy API</p>
-                    <br>
-                    <p>Tech: JS, jQuery, HTML, CSS</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://github.com/davidmbedford/Unit-6-GifTastic">Code</a>
-                    <a href="https://davidmbedford.github.io/Unit-6-GifTastic/">Site</a>
-                  </div>
+                <div class="card-action">
+                  <a href="https://github.com/davidmbedford/Unit-6-GifTastic">Code</a>
+                  <a href="https://davidmbedford.github.io/Unit-6-GifTastic/">Site</a>
                 </div>
               </div>
+            </div>
           </div>
         </div>
 
@@ -247,74 +249,74 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="assets/images/nightSky2crop.jpg"></div>
-  </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/images/nightSky2crop.jpg"></div>
+    </div>
 
-  <div class="section" id="skills-box">
-    <div class="container" id="skills-sec">
-      <div class="row">
-        <div class="col s12">
-          <h3 class="center">Skills</h3>
-        </div>
-      <div class="row">
-        <div class="col">
-            <i class="fab fa-react fa-4x skill-icon"></i>
-            <h5 class="center">React.JS</h5>
-        </div>
-        <div class="col">
-            <i class="fab fa-js fa-4x skill-icon"></i>
-            <h5 class="center">JavaScript</h5>
-        </div>
-          <div class="col">
+    <div class="section" id="skills-box">
+      <div class="container" id="skills-sec">
+        <div class="row">
+          <div class="col s12">
+            <h3 class="center">Skills</h3>
+          </div>
+          <div class="row">
+            <div class="col">
+              <i class="fab fa-react fa-4x skill-icon"></i>
+              <h5 class="center">React.JS</h5>
+            </div>
+            <div class="col">
+              <i class="fab fa-js fa-4x skill-icon"></i>
+              <h5 class="center">JavaScript</h5>
+            </div>
+            <div class="col">
               <i class="fab fa-html5 fa-4x skill-icon"></i>
               <h5 class="center">HTML</h5>
-          </div>
-          <div class="col">
+            </div>
+            <div class="col">
               <i class="fab fa-css3 fa-4x skill-icon"></i>
               <h5 class="center">CSS</h5>
             </div>
-          <div class="col">
+            <div class="col">
               <i class="fas fa-dollar-sign fa-4x skill-icon"></i>
               <h5 class="center">jQuery</h5>
-          </div>
-          <div class="col">
+            </div>
+            <div class="col">
               <i class="fab fa-node fa-js fa-4x skill-icon"></i>
               <h5 class="center">Node.JS</h5>
-          </div>
-          <div class="col">
+            </div>
+            <div class="col">
               <i class="fas fa-database fa-4x skill-icon"></i>
               <h5 class="center">SQL</h5>
-          </div>
-          <div class="col">
+            </div>
+            <div class="col">
               <i class="fas fa-leaf fa-4x skill-icon"></i>
               <h5 class="center">MongoDB</h5>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="assets/images/nightSky2crop.jpg"></div>
-  </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/images/nightSky2crop.jpg"></div>
+    </div>
 
-  <div class="section" id="contact-box">
-    <div class="container" id="contact-sec">
-      <div class="row">
-        <div class="col s12">
-          <h3 class="center">Contact</h3>
-          <h5><strong>Email:</strong> <span class="contact-info">david.m.bedford1@gmail.com</span></h5>
-          <h5><strong>Phone:</strong> <span class="contact-info">848.391.9915</span></h5>
-          <h5><strong>Github:</strong> <a href="https://github.com/davidmbedford/">davidmbedford</a></h5>
-          <h5><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/david-bedford-027b99190/">link</a></h5>
-          <h5><strong>More about me:</strong> <a href="https://drive.google.com/open?id=1ozBWzyouy6FgoyrDW90FbzAmbWb-rNfD70IWsBV85-M">resume</a></h5>
+    <div class="section" id="contact-box">
+      <div class="container" id="contact-sec">
+        <div class="row">
+          <div class="col s12">
+            <h3 class="center">Contact</h3>
+            <h5><strong>Email:</strong> <span class="contact-info">david.m.bedford1@gmail.com</span></h5>
+            <h5><strong>Phone:</strong> <span class="contact-info">848.391.9915</span></h5>
+            <h5><strong>Github:</strong> <a href="https://github.com/davidmbedford/">davidmbedford</a></h5>
+            <h5><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/david-bedford-027b99190/">link</a></h5>
+            <h5><strong>More about me:</strong> 
+              <a href="https://drive.google.com/open?id=1ozBWzyouy6FgoyrDW90FbzAmbWb-rNfD70IWsBV85-M">resume</a></h5>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
   </div>
 
