@@ -19,10 +19,10 @@ ul {
   margin: 3rem;
   color: rgb(225, 252, 225);
 }
-
+/* 
 .section {
   background-color: lightgray;
-}
+} */
 
 #main-box {
   /* background-color: rgb(29, 34, 49); */
@@ -54,10 +54,10 @@ ul {
   border-color: rgb(0, 1, 8));
 }
 
-#background-img {
+/* #background-img {
   background-image: url("../images/mainSky.jpg");
   background-size: 100%;
   background-position-y: -50%;
   padding-bottom: 12vh;
   /* background-repeat: no-repeat; */
-}
+} */
