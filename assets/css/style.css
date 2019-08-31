@@ -46,13 +46,16 @@ p.bio-paragraph {
   font-family: 'Francois One', sans-serif;
 }
 
-.navcss {
+.nav-link {
   color: rgb(247, 173, 173);
   font-family: 'Francois One', sans-serif;
+  font-weight: bolder;
 }
 
 #navlogo {
   font-family: 'Ultra', serif;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 /* font-family: 'Anton', sans-serif;
@@ -133,5 +136,11 @@ font-family: 'Ultra', serif; */
 @media only screen and (min-width: 490px) and (max-width: 625px) {
   .parallax-container .parallax img#parallax-main-img {
     bottom: 25vh;
+  }
+} 
+
+@media only screen and (min-width: 400px) and (max-width: 489px) {
+  .parallax-container .parallax img#parallax-main-img {
+    bottom: 5vh;
   }
 } 
