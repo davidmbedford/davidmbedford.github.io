@@ -1,32 +1,70 @@
-/* Regarding font sizes and characteristics */
-h2,
-h3 {
+/* Regarding Words: font sizes, colors and characteristics */
+h1 {
   color: rgb(213, 216, 243);
-  font-weight: bold;
+  font-family: 'Ultra', serif;
+  font-size: 5vw;
+}
+
+h3 {
+  color: rgb(247, 173, 173);
+  font-family: 'Shrikhand', sans-serif;
+}
+
+h3.maintext {
+  color: rgb(247, 173, 173);
+  font-family: 'Ultra', serif;
+  font-size: 3vw;
 }
 
 h5,
-p.bio-paragraph {
-  color: rgb(247, 173, 173);
+h6 {
+  color: rgb(213, 216, 243);
+  font-family: 'Ultra', serif;
 }
 
-h6,
-ul {
-  color: rgb(225, 252, 225);
-  font-style: italic;
+/* h6.a {
+  color: #039BE5;
+} */
+
+p {
+  font-family: 'Francois One', sans-serif;
+  font-weight: bolder;
+}
+
+p.bio-paragraph {
+  color: rgb(213, 216, 243);
+  font-family: 'Francois One', sans-serif;
+  font-weight: bolder;
 }
 
 .contact-info {
-  color: #039be5;
+  color: rgb(225, 252, 225);
 }
+
+.card-link {
+  color: #039BE5;
+  font-family: 'Francois One', sans-serif;
+}
+
+.navcss {
+  color: rgb(247, 173, 173);
+  font-family: 'Francois One', sans-serif;
+}
+
+#navlogo {
+  font-family: 'Ultra', serif;
+}
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Ultra', serif; */
+
 
 /* boxes and containers */
 #main-box {
-  margin-bottom: 3rem;
-  margin-top: 5rem;
   opacity: 0.8;
 }
-
 
 #body-box,
 #projects-box,
@@ -35,7 +73,7 @@ ul {
 #resume-box,
 #contact-box {
   background-image: linear-gradient(120deg, rgb(57, 67, 97), rgb(1, 3, 14));
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #contact-box {
@@ -52,17 +90,39 @@ ul {
 
 /* parralax to override materialize.css */
 
-/* ///////////// for main parallax header */
+/* ////////// so the main header is large, and adjusts for phone screens */
 #parallax-main {
   height: 70vh;
 }
 
+@media only screen and (max-width: 450px) {
+  #parallax-main {
+    height: 60vh;
+  }
+
+  h1 {
+    font-size: 5vh;
+  }
+
+  h3.maintext {
+    font-size: 3vh;
+  }
+}
+
+/* ////////// so the image always fills the para-container and does not distort */
+.parallax-container .parallax img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+} 
+
+/* ////////// this makes the parallax-main image move based on the screen size*/
+/* Otherwise it defaults to the top of the image which is just stars */
 @media only screen and (min-width: 901px) {
   .parallax-container .parallax img#parallax-main-img {
     bottom: 60vh;
   }
 } 
-
 
 @media only screen and (min-width: 626px) and (max-width: 900px) {
   .parallax-container .parallax img#parallax-main-img {
@@ -74,10 +134,4 @@ ul {
   .parallax-container .parallax img#parallax-main-img {
     bottom: 25vh;
   }
-} 
-
-.parallax-container .parallax img {
-  min-width: 100%;
-  min-height: 100%;
-  max-width: 100%;
 } 
