@@ -1,20 +1,46 @@
 /* Regarding font sizes and characteristics */
-h2,
-h3 {
+h1 {
   color: rgb(213, 216, 243);
-  font-weight: bold;
+  font-family: 'Shrikhand', sans-serif;
 }
 
-h5,
+h3 {
+  color: rgb(247, 173, 173);
+  font-family: 'Shrikhand', sans-serif;
+}
+
+h3.maintext {
+  color: rgb(247, 173, 173);
+  font-family: 'Ultra', serif;
+}
+
+h5 {
+  color: lightgray;
+  font-family: 'Ultra', serif;
+}
+
+p {
+  font-family: 'Francois One', sans-serif;
+}
+
 p.bio-paragraph {
   color: rgb(247, 173, 173);
+  font-family:  'Shrikhand', cursive;
 }
 
-h6,
-ul {
-  color: rgb(225, 252, 225);
-  font-style: italic;
+.navcss {
+  font-family: 'Francois One', sans-serif;
 }
+
+#navlogo {
+  font-family: 'Ultra', serif;
+}
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Ultra', serif; */
+
 
 .contact-info {
   color: #039be5;
@@ -26,7 +52,6 @@ ul {
   margin-top: 5rem;
   opacity: 0.8;
 }
-
 
 #body-box,
 #projects-box,
