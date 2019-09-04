@@ -1,5 +1,5 @@
 # Hi, My name is David M Bedford
-### User-name: davidmbedford1
+### User-name: davidmbedford
 ##### Here is My web development portfolio: https://davidmbedford.github.io/ 
 ##### For more about me, visit my LinkedIn: https://www.linkedin.com/in/davidmbedford/
 
@@ -9,4 +9,4 @@
 * Materialize
 * jQuery/ES5
 
-This app was made entirely by: davidmbedford1. 
+##### This app was made entirely by: davidmbedford1. 
