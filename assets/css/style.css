@@ -10,17 +10,17 @@
   color: #a0d4a5;
 }
 
-#hi,
-#workhere {
+.color1,
+.color2,
+.color3 {
   transition: color 1s ease;
 }
 
-#hi:hover,
-#workhere:hover {
+.color1:hover,
+.color2:hover,
+.color3:hover {
   color: white;
 }
-
-/* Create React App CSS I kept for css relevant to multiple components/screens */
 
 .App {
   text-align: center;
@@ -36,39 +36,19 @@
   color: #fcf6e5;
 }
 
-/* Universal CSS I wrote */
-
-.no-pad {
-  padding: 0 !important;
-}
-
 a { 
   color: inherit; 
 } 
 
 h3{
   font-family: 'Ultra', serif;
-
 }
 
 h5 {
   font-family: 'Teko', serif;
-  font-weight: bold;
   font-size: 2rem;
 }
 
-h6 {
-  font-family: 'Teko', serif;
-  font-weight: bold;
-}
-
-body {
-  background-color: rgb(0, 0, 0);
-}
-
 .bold {
-  font-weight: bold;
+  font-weight: 800;
 }
-
-
-
