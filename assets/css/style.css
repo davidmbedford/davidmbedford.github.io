@@ -1,146 +1,74 @@
-/* Regarding Words: font sizes, colors and characteristics */
-h1 {
-  color: rgb(213, 216, 243);
+.color1 {
+  color: #9a869c;
+}
+
+.color2 {
+  color: #90a5ce;
+}
+
+.color3 {
+  color: #a0d4a5;
+}
+
+#hi,
+#workhere {
+  transition: color 1s ease;
+}
+
+#hi:hover,
+#workhere:hover {
+  color: white;
+}
+
+/* Create React App CSS I kept for css relevant to multiple components/screens */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282834;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fcf6e5;
+}
+
+/* Universal CSS I wrote */
+
+.no-pad {
+  padding: 0 !important;
+}
+
+a { 
+  color: inherit; 
+} 
+
+h3{
   font-family: 'Ultra', serif;
-  font-size: 5vw;
+
 }
 
-h3 {
-  color: rgb(247, 173, 173);
-  font-family: 'Shrikhand', sans-serif;
+h5 {
+  font-family: 'Teko', serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-h3.maintext {
-  color: rgb(247, 173, 173);
-  font-family: 'Ultra', serif;
-  font-size: 3vw;
-}
-
-h5,
 h6 {
-  color: rgb(213, 216, 243);
-  font-family: 'Ultra', serif;
+  font-family: 'Teko', serif;
+  font-weight: bold;
 }
 
-p {
-  font-family: 'Francois One', sans-serif;
-  font-weight: bolder;
+body {
+  background-color: rgb(0, 0, 0);
 }
 
-p.bio-paragraph {
-  color: rgb(213, 216, 243);
-  font-family: 'Francois One', sans-serif;
-  font-weight: bolder;
+.bold {
+  font-weight: bold;
 }
 
-.contact-info {
-  color: rgb(225, 252, 225);
-}
-
-.card-link {
-  color: #039BE5;
-  font-family: 'Francois One', sans-serif;
-}
-
-.nav-link {
-  color: rgb(247, 173, 173);
-  font-family: 'Francois One', sans-serif;
-  font-weight: bolder;
-}
-
-#navlogo {
-  font-family: 'Ultra', serif;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-
-/* font-family: 'Anton', sans-serif;
-font-family: 'Francois One', sans-serif;
-font-family: 'Shrikhand', cursive;
-font-family: 'Ultra', serif; */
 
 
-/* boxes and containers */
-#main-box {
-  opacity: 0.8;
-}
-
-#body-box,
-#projects-box,
-#bio-box,
-#skills-box,
-#resume-box,
-#contact-box {
-  background-image: linear-gradient(120deg, rgb(57, 67, 97), rgb(1, 3, 14));
-  opacity: 0.9;
-}
-
-#contact-box {
-  border-width: 0rem 0rem 2rem 0rem;
-  border-style: solid;
-  border-color: rgb(0, 1, 8));
-}
-
-.card-stacked {
-  background-color: rgb(248, 249, 255);
-}
-
-/* icons */
-.skill-icon {
-  margin: 3rem;
-  color: rgb(225, 252, 225);
-}
-
-/* parralax to override materialize.css */
-
-/* ////////// so the main header is large, and adjusts for phone screens */
-#parallax-main {
-  height: 70vh;
-}
-
-@media only screen and (max-width: 450px) {
-  #parallax-main {
-    height: 60vh;
-  }
-
-  h1 {
-    font-size: 5vh;
-  }
-
-  h3.maintext {
-    font-size: 3vh;
-  }
-}
-
-/* ////////// so the image always fills the para-container and does not distort */
-.parallax-container .parallax img {
-  min-width: 100%;
-  min-height: 100%;
-  max-width: 100%;
-} 
-
-/* ////////// this makes the parallax-main image move based on the screen size*/
-/* Otherwise it defaults to the top of the image which is just stars */
-@media only screen and (min-width: 901px) {
-  .parallax-container .parallax img#parallax-main-img {
-    bottom: 60vh;
-  }
-} 
-
-@media only screen and (min-width: 626px) and (max-width: 900px) {
-  .parallax-container .parallax img#parallax-main-img {
-    bottom: 45vh;
-  }
-}
-
-@media only screen and (min-width: 490px) and (max-width: 625px) {
-  .parallax-container .parallax img#parallax-main-img {
-    bottom: 25vh;
-  }
-} 
-
-@media only screen and (min-width: 400px) and (max-width: 489px) {
-  .parallax-container .parallax img#parallax-main-img {
-    bottom: 5vh;
-  }
-} 

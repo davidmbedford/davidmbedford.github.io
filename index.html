@@ -11,332 +11,38 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="https://fonts.googleapis.com/css?family=Anton|Francois+One|Shrikhand|Ultra&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Teko|Ultra&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <div class="container-fluid">
-    <!--app container-->
-    <!---This is the section with my name--->
-    <!-- <div class="section" id="background-img"> -->
-      
-      <nav id="transparent">
-        <div class="nav-wrapper">
-          <a href="https://www.linkedin.com/in/david-bedford-027b99190/" class="brand-logo" id="navlogo">dmb</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a class="nav-link" href="#home-sec">Home</a></li>
-            <li><a class="nav-link" href="#portfolio-sec">Portfolio</a></li>
-            <li><a class="nav-link" href="#bio-sec">Bio</a></li>
-            <li><a class="nav-link" href="#skills-sec">Skills</a></li>
-            <li><a class="nav-link" href="#contact-sec">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <ul class="sidenav" id="mobile-demo">
-        <li><a class="nav-link" href="#home-sec">Home</a></li>
-        <li><a class="nav-link" href="#portfolio-sec">Portfolio</a></li>
-        <li><a class="nav-link" href="#bio-sec">Bio</a></li>
-        <li><a class="nav-link" href="#skills-sec">Skills</a></li>
-        <li><a class="nav-link" href="#contact-sec">Contact</a></li>
-      </ul>
-
-      <div class="parallax-container" id="parallax-main">
-        
-        <div class="container" id="main-box">
-            <div class="row" id="home-sec">
-            <div class="col s12">
-              <h1 class="center">David Michael Bedford</h1>
-              <h3 class="center maintext">Web developer. Musician. Avid Learner.</h3>
-            </div>
-          </div>
-        </div>
   
-        <div class="parallax"><img id="parallax-main-img" src="assets\images\mainSky.jpg"/></div>
+      <div class="App">
+          <div class="App-header">
+              <div class="container left-align">
+                  <h3 class="color1">
+                    <a id="hi" href="/contact">Hi,</a>
+                    </h3>
+                  <h3>I'm a <span class="color1">Full-Stack Web Developer</span> with a deep passion for design!</h3>
+                  <br/>
+                  <h5>My focus is on modern JavaScript frameworks and libraries, from 
+                    <span class="color3"> React </span> and 
+                    <span class="color3"> Vue </span>  
+                    on the front-end to 
+                    <span class="color3"> node.js </span> and
+                    <span class="color3"> Express </span> 
+                    on the back-end.
+                    </h5>
+                  <h5>I have a deep passion for learning and have my hands in a lot of other tech too!
+                    Check out my <span class="color2"><a id="workhere" href='/portfolio'>work here</a></span>
+                    </h5>
+                  <h5>Outside of programming, I'm a musician, audio engineer, and community activist.</h5>
+              </div>    
+
+          </div>
       </div>
-
-    <!-- </div> -->
-
-    <!--This is the section that changes dynamically when you select a tab--->
-    <div class="section" id="projects-box">
-      <div class="container" id="portfolio-sec">
-        <div class="row">
-          <div class="col s12">
-            <h3 class="center">Portfolio</h3>
-          </div>
-
-          <div class="row">
-          <div class="col s12 l6">
-            <h5 class="header">ZigZag</h5>
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/zigZagcrop.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>Are you looking for a new career path? ZigZag contains a personality survey to help determine the best course for you! We also have a vast database of related academic programs.</p>
-                  <br>
-                  <p>Main Tech: React, ES6, node.js, Sql, Express, APIs, HTML/CSS (Materialize)</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/asmith7531/team1project3"><span class="card-link">Code</span></a>
-                  <a href="https://radiant-wildwood-53087.herokuapp.com"><span class="card-link">Site</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 l6">
-            <h5 class="header">Star Wars: Force Clicker</h5>
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/SWFC.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>Test you connection to the force and click on all of the characters without repeating! This app was built to demonstrate dynamic changes with React.JS</p>
-                  <br>
-                  <p>Main Tech: React, ES6, HTML/CSS (BootStrap)</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/davidmbedford/clickergame"><span class="card-link">Code</span></a>
-                  <a href="https://clickergame-rubc.herokuapp.com/"><span class="card-link">Site</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-          <div class="col s12 l6">
-            <h5 class="header">ShowSpotter</h5>
-            <div class="card ">
-              <div class="card-image">
-                <img src="assets/images/S.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>Enables users to find fun events near them! You can search for concerts, fests and more in your area. Find tickets, and directions via our app, and create a profile to save information.</p>
-                  <br>
-                  <p>Main Tech: JavaScript, jQuery, various APIs, Firebase, HTML/CSS (Bootstrap)</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/Parker-Tech/project_one_boiler"><span class="card-link">Code</span></a>
-                  <a href="https://show-spotter.herokuapp.com/"><span class="card-link">Site</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 l6">
-            <h5 class="header">Blitzkrieg</h5>
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/blitz.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>An all-in-one productivity app: Blitz enables you to start your day with a bang, Choose between various widgets, such as traffic reports, weather, and the news, to maximize your morning!</p>
-                  <br>
-                  <p>Main Tech: JavaScript, node.js, jQuery, Sql, Handlebars, Express, various APIs, HTML/CSS (Bootstrap)</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/rachaelbelle/blitzkreig"><span class="card-link">Code</span></a>
-                  <a href="https://blitzkreigg.herokuapp.com/"><span class="card-link">Site</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-
-          <div class="col s12 l6">
-            <h5 class="header">Bamazon</h5>
-            <div class="card ">
-              <div class="card-image">
-                <img src="assets/images/bamazon.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>A digital storefront designed for your command line interface! There is a client, and manager-facing interface for this app. Customers may view inventory and purchase items; managers can review, stock and add new items.</p>
-                  <br>
-                  <p>Main Tech: node.js, jQuery, Inquirer, bash</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/davidmbedford/bamazon-unit12"><span class="card-link">Code</span></a>
-                  <a href="#"><span class="card-link">Clone it!</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 l6">
-            <h5 class="header">Live Schedule</h5>
-            <div class="card ">
-              <div class="card-image">
-                <img src="assets/images/liveschedule.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>This utilizes Firebase to create a live-updating schedule application. This current version is geared towards Train conductors, but the application can be refactored for anyone in need of coordinating a steady routine.</p>
-                  <br>
-                  <p>Tech: Firebase, JS, jQuery, HTML/CSS (Bootstrap)</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/davidmbedford/LiveSchedule"><span class="card-link">Code</span></a>
-                  <a href="https://davidmbedford.github.io/LiveSchedule/"><span class="card-link">Site</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-
-          <div class="col s12 l6">
-            <h5 class="header">Friend Finder</h5>
-            <div class="card ">
-              <div class="card-image">
-                <img src="assets/images/friendfinder.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>This app allows users to take a survey and find like-minded people in their area to hang out with! This app is meant to demonstrate MySql API-routing and Handlebars via node.</p>
-                  <br>
-                  <p>Main Tech: JS, jQuery, MySql, Handlebars, HTML/CSS (Materialize)</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/davidmbedford/FriendFinder"><span class="card-link">Code</span></a>
-                  <a href="https://friend-finderxrubc.herokuapp.com/home"><span class="card-link">Site</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 l6">
-            <h5 class="header">Gif Exploder</h5>
-            <div class="card ">
-              <div class="card-image">
-                <img src="assets/images/gifexploder.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>A jQuery-based Gif engine that utilizes the Giphy API. Users can add buttons to the header and use them to search for gifs of any sort based on what's trending.</p>
-                  <br>
-                  <p>Tech: JavaScript, jQuery, HTML, CSS</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/davidmbedford/Unit-6-GifTastic"><span class="card-link">Code</span></a>
-                  <a href="https://davidmbedford.github.io/Unit-6-GifTastic/"><span class="card-link">Site</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-      </div>
-
-    </div>
-
-    <div class="parallax-container">
-      <div class="parallax"><img src="assets/images/nightSky2crop.jpg"></div>
-    </div>
-
-    <div class="section" id="bio-box">
-      <div class="container" id="bio-sec">
-        <div class="row">
-          <div class="col s12">
-            <h3 class="center">Bio</h3>
-            <p class="bio-paragraph">I'm a Full Stack Web Developer with a focus on React and UI / UX design. 
-              Currently I build custom sites for small businesses and artists. I’m familiar with a wide range of 
-              web programing languages and technologies, including but not limited to, JavaScript(ES2017), React.js, 
-              Redux, node.js, MongoDB, MySQL, jQuery, HTML5, and CSS3. All of my work takes focus on 
-              mobile responsiveness and a smooth user experience. </p>
-            <p class="bio-paragraph">In addition to programming, I have 8 years of experience with project management, 
-              press outreach, and public education from my work history as an Organizer.</p>
-            <p class="bio-paragraph">And I’m also a musician. I’m familiar with a range of audio and graphic software, 
-              including but not limited to Ableton Live, Cubase, and Photoshop.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="parallax-container">
-      <div class="parallax"><img src="assets/images/nightSky2crop.jpg"></div>
-    </div>
-
-    <div class="section" id="skills-box">
-      <div class="container" id="skills-sec">
-        <div class="row">
-          <div class="col s12">
-            <h3 class="center">Skills</h3>
-          </div>
-          <div class="row">
-            <div class="col">
-              <i class="center fab fa-react fa-4x skill-icon"></i>
-              <h6 class="center">React.JS</h6>
-            </div>
-            <div class="col">
-              <i class="center fab fa-js fa-4x skill-icon"></i>
-              <h6 class="center">JavaScript</h6>
-            </div>
-            <div class="col">
-              <i class="center fab fa-html5 fa-4x skill-icon"></i>
-              <h6 class="center">HTML</h6>
-            </div>
-            <div class="col">
-              <i class="center fab fa-css3 fa-4x skill-icon"></i>
-              <h6 class="center">CSS</h6>
-            </div>
-            <div class="col">
-              <i class="center fas fa-dollar-sign fa-4x skill-icon"></i>
-              <h6 class="center">jQuery</h6>
-            </div>
-            <div class="col">
-              <i class="center fab fa-node fa-js fa-4x skill-icon"></i>
-              <h6 class="center">node.js</h6>
-            </div>
-            <div class="col">
-              <i class="center fas fa-database fa-4x skill-icon"></i>
-              <h6 class="center">MySQL</h6>
-            </div>
-            <div class="col">
-              <i class="center fas fa-leaf fa-4x skill-icon"></i>
-              <h6 class="center">MongoDB</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="parallax-container">
-      <div class="parallax"><img src="assets/images/nightSky2crop.jpg"></div>
-    </div>
-
-    <div class="section" id="contact-box">
-      <div class="container" id="contact-sec">
-        <div class="row">
-          <div class="col s12">
-            <h3 class="center">Contact</h3>
-            <h6><strong>Email:</strong> <span class="contact-info">david.m.bedford1@gmail.com</span></h6>
-            <h6><strong>Phone:</strong> <span class="contact-info">848.391.9915</span></h6>
-            <h6><strong>Github:</strong> <a href="https://github.com/davidmbedford/">davidmbedford</a></h6>
-            <h6><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/david-bedford-027b99190/">link</a></h6>
-            <h6><strong>More about me:</strong> 
-              <a href="https://drive.google.com/open?id=1ozBWzyouy6FgoyrDW90FbzAmbWb-rNfD70IWsBV85-M">resume</a></h6>
-          </div>
-        </div>
-      </div>
-    </div>
-
+     
   </div>
 
   <!--  Scripts-->
